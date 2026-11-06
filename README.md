@@ -99,4 +99,4 @@ Dari proyek ini dan tugas-tugas sebelumnya di Kodland, saya belajar membuat bot 
 
 ## Penulis
 
-alail25, lulusan Kodland. [github.com/alail25](https://github.com/alail25)
+(M.Rizqan Almaliky) alail25, lulusan Kodland. [github.com/alail25](https://github.com/alail25)
