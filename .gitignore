@@ -1,0 +1,4 @@
+.env
+riwayat.db
+__pycache__/
+.venv/
