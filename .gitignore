@@ -1,4 +1,20 @@
+# Rahasia
 .env
-riwayat.db
+Discord Tokens.json
+*.token
+
+# Python
 __pycache__/
+*.pyc
+venv/
 .venv/
+
+# Database lokal dan data form
+instance/
+*.db
+form.txt
+
+# Editor
+.vscode/
+.hintrc
+

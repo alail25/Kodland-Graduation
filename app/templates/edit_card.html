@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Card</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Card</h1>
+        {% if card %}
+            <form class="form__card" action="{{ url_for('update', id=card.id) }}" method="POST">
+                <div class="form__inputs">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" class="form__input" value="{{ card.title }}" required>
+                    
+                    <label for="subtitle">Subtitle:</label>
+                    <input type="text" id="subtitle" name="subtitle" class="form__input" value="{{ card.subtitle }}" required>
+                    
+                    <label for="text">Content:</label>
+                    <textarea id="text" name="text" class="form__text" rows="10" required>{{ card.text }}</textarea>
+                </div>
+                
+                <div class="form-buttons">
+                    <button type="submit" class="form__button">Update</button>
+                    <a href="{{ url_for('index') }}" class="main__link">Cancel</a>
+                </div>
+            </form>
+        {% else %}
+            <p>Card not found</p>
+            <a href="{{ url_for('index') }}" class="main__link">Back to Index</a>
+        {% endif %}
+    </div>
+</body>
+</html>
