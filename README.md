@@ -1,4 +1,4 @@
-# 🛡️ Bot Discord Pemeriksa Hoaks
+# Bot Discord Pemeriksa Hoaks
 
 Ini proyek final saya di Kodland. Bot Discord untuk mengecek apakah sebuah pesan atau berita punya ciri-ciri hoaks. Kita kirim teksnya atau screenshot-nya, lalu bot kasih tahu bagian mana yang mencurigakan dan bagaimana cara mengeceknya.
 
@@ -124,4 +124,4 @@ MIT. Detailnya ada di file [LICENSE](LICENSE).
 
 ## Penulis
 
-alail25, lulusan Kodland. [github.com/alail25](https://github.com/alail25)
+M.Rizqan Almaliky (alail25), lulusan Kodland. [github.com/alail25](https://github.com/alail25)
